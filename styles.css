@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body, .background, .blog, .newsletter-section {
+  background-color: #000000;
+}
+
+.home button, .nav-item button, .btn, .copyright, .icon {
+  background-color: #F15412;
+}
+
+.home button, .navbar-brand, .navbar-brand:hover, .nav-link, .nav-link:hover, .nav-item button, .home, .container, .form-text, .newsletter, .team, .footer, .copyright {
+  color: #fff;
+}
+
+.home button, .nav-item button {
+  border-radius: 10px;
+  border: 1px solid #F15412;
+}
+
+.home button {
+  width: 200px;
+  margin-top: 5%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.background {
+  background: url(images/bg-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+
+/* navbar */
+.navbar {
+  padding-top: 2.5%;
+}
+
+.navbar-brand span {
+  color: #F15412;
+  font-family: 'Splash', cursive;
+  font-size: 3rem;
+}
+
+.navbar-brand {
+  margin-left: 8%;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-brand {
+    margin-left: 4%;
+  }
+}
+
+.navbar-toggler {
+  background-color: #343A40;
+}
+
+.navbar-nav {
+  margin-right: 10%;
+}
+
+.nav-link {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.home {
+  margin-right: 70%;
+  text-align: left;
+  margin-top: 400px;
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 900px) {
+  .home {
+    margin-right: 50%;
+    margin-top: 450px;
+  }
+}
+
+/* blog */
+.blog {
+  margin-bottom: 5%;
+}
+
+.container {
+  border-radius: 10px;
+  margin-top: 3%;
+  height: 250px;
+  width: 600px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 3px #F15412;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    height: 270px;
+    width: 400px;
+  }
+
+  .blog-img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+.blog-img {
+  height: 120px;
+  width: 120px;
+  margin-top: 20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px 2px #F15412;
+}
+
+/* newsletter */
+.newsletter-section {
+  background: url(images/bg2-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+.newsletter {
+  height: 280px;
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 5%;
+  padding-top: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+  .newsletter-section {
+    height: 500px;
+  }
+
+  .newsletter {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .newsletter-section {
+    height: 500px;
+  }
+
+  .newsletter {
+    padding-top: 200px;
+    width: 200px;
+  }
+}
+
+/* Team */
+.team {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.team-img {
+  height: 200px;
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px 2px #F15412;
+}
+
+@media only screen and (max-width: 500px) {
+  .team-img {
+    height: 150px;
+    width: 180px;
+  }
+}
+
+/* Footer */
+.footer {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 4%;
+}
+
+.row {
+  margin-bottom: 8%;
+}
+
+.column1 {
+  padding-right: 8%;
+}
+
+@media only screen and (max-width: 900px) {
+  .column1 {
+    padding-right: 0;
+  }
+}
+
+.column2 {
+  text-align: right;
+}
+
+.column3 {
+  text-align: center;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  margin: 20px;
+}
